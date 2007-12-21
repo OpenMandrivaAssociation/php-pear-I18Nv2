@@ -18,6 +18,7 @@ Requires:	php-pear
 Requires:	php-iconv
 BuildArch:	noarch
 BuildRequires:	dos2unix
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 This package provides basic support to localize your application, like
