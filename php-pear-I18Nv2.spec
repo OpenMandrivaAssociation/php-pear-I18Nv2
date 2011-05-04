@@ -5,7 +5,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.11.4
-Release:	%mkrel 7
+Release:	%mkrel 8
 Summary:	Internationalization
 License:	PHP License
 Group:		Development/PHP
