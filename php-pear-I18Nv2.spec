@@ -1,8 +1,6 @@
 %define		_class		I18Nv2
 %define		upstream_name	%{_class}
 
-%define		_requires_exceptions pear(PHPUnit.php)
-
 Name:		php-pear-%{upstream_name}
 Version:	0.11.4
 Release:	%mkrel 10
