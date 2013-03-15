@@ -3,7 +3,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.11.4
-Release:	%mkrel 10
+Release:	11
 Summary:	Internationalization
 License:	PHP License
 Group:		Development/PHP
@@ -15,7 +15,6 @@ Requires:	php-pear
 Requires:	php-iconv
 BuildArch:	noarch
 BuildRequires:	php-pear
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This package provides basic support to localize your application, like
@@ -26,7 +25,6 @@ locale based formatting of dates, numbers and currency.
 mv package.xml %{upstream_name}-%{version}/%{upstream_name}.xml
 
 %install
-rm -rf %{buildroot}
 
 cd %{upstream_name}-%{version}
 pear install --nodeps --packagingroot %{buildroot} %{upstream_name}.xml
@@ -39,7 +37,6 @@ install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 %clean
-rm -rf %{buildroot}
 
 
 
