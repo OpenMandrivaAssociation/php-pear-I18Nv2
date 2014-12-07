@@ -4,7 +4,7 @@
 Summary:	Internationalization
 Name:		php-pear-%{modname}
 Version:	0.11.4
-Release:	17
+Release:	18
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/I18Nv2/
