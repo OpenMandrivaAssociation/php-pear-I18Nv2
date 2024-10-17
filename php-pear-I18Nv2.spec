@@ -7,7 +7,7 @@ Version:	0.11.4
 Release:	20
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/I18Nv2/
+Url:		https://pear.php.net/package/I18Nv2/
 Source0:	http://download.pear.php.net/package/%{modname}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	php-pear
